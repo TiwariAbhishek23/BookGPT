@@ -1,0 +1,17 @@
+Django
+djangorestframework
+django-q
+psycopg[binary]
+django-cors-headers
+pgvector
+openai
+langchain
+llama-index
+pypdf
+numpy
+tiktoken
+uvicorn
+gunicorn
+fastapi
+python-dotenv
+pdfminer.six
