@@ -17,10 +17,10 @@ export default function PDFUploader({ onUpload }) {
     setMessage("");
 
     const formData = new FormData();
-    formData.append("file", file);
+    formData.append("file_uploaded", file);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/", {
+      const response = await fetch("http://127.0.0.1:8000/api/upload-pdf/", {
         method: "POST",
         body: formData,
       });
